@@ -6,6 +6,41 @@
 
 * {
   font-family: Roboto;
-  color: $text-color;
-  background-color: $background-color;
+  background-color: $light-background-color;
+  color: $dark-text-color;
+}
+
+#header {
+
+  &, * {
+    background-color: $dark-background-color;
+    color: $light-text-color;
+  }
+
+  > h1 {
+    padding: $text-padding-default;
+  }
+
+  > * {
+    margin: $content-margin;
+    padding: 0 $text-padding-default;
+  }
+
+  #overlap {
+    margin-bottom: $header-background-shift + 1dvh;
+  }
+}
+
+#content {
+  position: relative;
+  top: -1 * $header-background-shift;
+
+  margin: $content-margin;
+
+  border: $content-border;
+  border-radius: $content-border-radius;
+
+  box-shadow: 0 0 $content-shadow-size $dark-background-color;
+
+  padding: 0 $text-padding-default;
 }

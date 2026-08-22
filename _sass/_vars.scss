@@ -1,3 +1,21 @@
-$background-color: #400080;
+// colors:
+$dark-background-color: #400080;
+$light-text-color: #edeade; /* Bone: F9F6EE Alabaster: EDEADE */
 
-$text-color: #edeade; /* Bone: F9F6EE Alabaster: EDEADE */
+$light-background-color: $light-text-color;
+$dark-text-color: black;
+
+// data
+
+$text-padding-default: 1rem;
+
+// header
+$header-background-shift: 12.5dvh;
+
+// content
+$content-margin: 0 20%;
+
+$content-border: 1px solid $dark-background-color;
+$content-border-radius: 1%;
+
+$content-shadow-size: 0.1rem;

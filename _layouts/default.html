@@ -2,17 +2,19 @@
 layout: base-page
 styles:
   - default-styles
+  - flex-style
 ---
-
-<link rel="stylesheet" href="assets/css/flex-style.css" />
 
 <div id="flex-container">
   <div id="header">
+    {% include header.html %}
+    <div id="overlap"></div>
   </div>
 
   <div id="content">{{content}}</div>
 
-  <footer>
+  <div id="footer">
+    {% include footer.html %}
     <p><a href="{{ "/index.html" | relative_url }}">homepage</a></p>
-  </footer>
+  </div>
 </div>
