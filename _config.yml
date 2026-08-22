@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dragoneer-Site
-email: ""
+title: Rules and Mods.
 description: >- # this means to ignore newlines until "baseurl:"
   Changing some things around is pretty crazy.
   takes time though.
 # baseurl: /rules # the subpath of your site, e.g. /blog
 url: https://dragoneer-rules.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:
+
+
 # Build settings
 # Exclude from processing.
 # The following items will not be processed, by default.
