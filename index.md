@@ -10,4 +10,4 @@ and if you want
 
 ## [something else][other]
 
-[other]: {% link other.md %}
+[other]: {{site.baseurl}}{% link other.md %}
