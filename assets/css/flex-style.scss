@@ -1,0 +1,30 @@
+---
+---
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#flex-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#header {
+  flex: 0 1 auto;
+}
+
+#content {
+  flex: 1 1 auto;
+}
+
+footer,
+footer * {
+  flex: 0 1 100 px;
+
+  text-align: center;
+  padding: 5px;
+
+}

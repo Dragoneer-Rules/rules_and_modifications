@@ -7,7 +7,7 @@
 
     {% comment %} Import stylesheets based on frontmatter data {% endcomment %}
     {% for style in layout.styles %}
-      {% assign path = "css/" | append: style | append: ".css" %}
+      {% assign path = "assets/css/" | append: style | append: ".css" %}
       <link rel="stylesheet" href="{{ path | relative_url }}">
     {% endfor %}
 

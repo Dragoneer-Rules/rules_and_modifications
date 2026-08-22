@@ -1,7 +1,18 @@
 ---
 layout: base-page
 styles:
-  - font-change
+  - default-styles
 ---
 
-{{ content }}
+<link rel="stylesheet" href="assets/css/flex-style.css" />
+
+<div id="flex-container">
+  <div id="header">
+  </div>
+
+  <div id="content">{{content}}</div>
+
+  <footer>
+    <p><a href="{{ "/index.html" | relative_url }}">homepage</a></p>
+  </footer>
+</div>
