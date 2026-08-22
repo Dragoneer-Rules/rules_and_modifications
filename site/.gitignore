@@ -1,9 +1,0 @@
-# Default
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-
-# As per the guide
-Gemfile.lock
