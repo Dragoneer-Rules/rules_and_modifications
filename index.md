@@ -5,12 +5,13 @@ styles:
   - mid-box
 ---
 
-# Testing.
+# Tempowawy Homepage! (\* ^ ω ^)
 
-This is witewally just a test
+**_Wewcome evewyone (o^▽^o)!!!_**
+<br/>this is witewawwy just a tempowawy homepage, so d-don't w-wowwy too much about it (≧◡≦)
 
-and if you want
+| Page              | owo, what's there?                  |
+| ----------------- | ----------------------------------- |
+| [wules][da-rulez] | cowwection of ouw homebwew wules〜☆ |
 
-## [something else][other]
-
-[other]: {{site.baseurl}}{% link other.md %}
+[da-rulez]: {{ site.baseurl }}{% link rules.html %}

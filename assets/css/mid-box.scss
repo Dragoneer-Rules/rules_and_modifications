@@ -3,6 +3,42 @@
 
 @import "defaults";
 
+table {
+  width: 100%;
+  padding: 0.2em;
+
+  td, th {
+    border-left: 1px solid $contrast-bg-col;
+    background-color: $bg-col;
+    padding: 0.25em 0.125em 0.25em 0.25em;
+    box-shadow: 0.5em 0.5em $bg-col;
+  }
+
+  tbody tr:hover td {
+    transform: skew(-5deg) scale(1.02);
+  }
+
+  td {
+    text-align: center;
+  }
+}
+
+button {
+  position: fixed;
+  margin-left: -20%;
+  margin-top: -3%;
+
+  color: $contrast-text-col;
+  background-color: $contrast-bg-col;
+
+  padding: 0.5em;
+
+  border: 1px solid $bg-col;
+  border-radius: 0.5em;
+
+  box-shadow: 0.2em 0.2em 0.5em $bg-col;
+}
+
 #header {
 
   background-color: $contrast-bg-col;
@@ -16,11 +52,6 @@
   #overlap {
     margin-bottom: $header-background-shift + 1dvh;
   }
-}
-
-button {
-  color: $contrast-text-col;
-  background-color: $contrast-bg-col;
 }
 
 .content {
@@ -56,9 +87,9 @@ button {
       height: 0;
       // background-color: yellow;
 
-      $dist: 0.4em;
+      $dist: 0.3em;
 
-      border-top: 0.3em solid $contrast-bg-col;
+      border-top: 0.25em solid $contrast-bg-col;
       border-right: $dist solid transparent;
       border-left: $dist solid transparent;
     }
