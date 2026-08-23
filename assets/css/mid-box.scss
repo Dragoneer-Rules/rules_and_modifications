@@ -3,7 +3,7 @@
 
 @import "defaults";
 
-table {
+.stylish-table {
   width: 100%;
   padding: 0.2em;
 
@@ -23,7 +23,7 @@ table {
   }
 }
 
-button {
+.button-dark-toggle {
   position: fixed;
   margin-left: -20%;
   margin-top: -3%;
