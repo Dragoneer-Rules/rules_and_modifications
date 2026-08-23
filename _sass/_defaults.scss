@@ -25,16 +25,22 @@ body {
   --contrast-focus-col: #{$dark-focus-col};
   --contrast-text-col: #{$dark-text-col};
 
+  --shadow-col: #{$dark-bg-col};
+  --content-border-col: #{$dark-bg-col};
+
   color: $text-col;
   background-color: $bg-col;
 }
 
 .dark-mode {
-  --bg-col: #{$dark-bg-col};
-  --focus-col: #{$dark-focus-col};
+  --bg-col: #{$c-dt-bg-col};
+  --focus-col: #{$c-dt-focus-col};
   --text-col: #{$dark-text-col};
 
-  --contrast-bg-col: #{$light-bg-col};
-  --contrast-focus-col: #{$light-focus-col};
-  --contrast-text-col: #{$light-text-col};
+  --contrast-bg-col: #{$dark-bg-col};
+  --contrast-focus-col: #{$dark-focus-col};
+  --contrast-text-col: #{$dark-text-col};
+
+  --shadow-col: transparent;
+  --content-border-col: transparent;
 }

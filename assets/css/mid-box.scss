@@ -18,6 +18,11 @@
   }
 }
 
+button {
+  color: $contrast-text-col;
+  background-color: $contrast-bg-col;
+}
+
 .content {
   overflow: auto;
   position: relative;
@@ -28,10 +33,11 @@
 
   background-color: $focus-col;
 
-  border: 1px solid $contrast-bg-col;
+  border: 1px solid $content-border-col;
+
   border-radius: $content-border-radius;
 
-  box-shadow: 0 0 $content-shadow-size $bg-col;
+  box-shadow: 0.2em 0.2em $content-shadow-size $shadow-col;
 
   > h1 {
     // border-bottom: 0.1em solid $contrast-bg-col;

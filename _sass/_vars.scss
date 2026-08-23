@@ -1,11 +1,14 @@
 // colors:
 $light-focus-col: white;
-$light-bg-col: #edeade;
+$light-bg-col: #e2e0d9; // #edeade;
 $light-text-col: black;
 
 $dark-focus-col: #4d0099;
 $dark-bg-col: #400080;
 $dark-text-col: $light-bg-col;
+
+$c-dt-bg-col: #0d0c09; // #1e1f18; // #2e2f26;
+$c-dt-focus-col: #171611; // #4b4c40; //#84857c;
 
 // $dark-background-color: #400080;
 // $light-text-color: #edeade; /* Bone: F9F6EE Alabaster: EDEADE */
@@ -21,6 +24,9 @@ $contrast-bg-col: var(--contrast-bg-col);
 $contrast-focus-col: var(--contrast-focus-col);
 $contrast-text-col: var(--contrast-text-col);
 
+$shadow-col: var(--shadow-col);
+$content-border-col: var(--content-border-col);
+
 // data
 
 $text-padding-default: 1rem;
@@ -33,4 +39,4 @@ $content-margin: 0 20%;
 
 $content-border-radius: 1em;
 
-$content-shadow-size: 0.1rem;
+$content-shadow-size: 0.2em;
