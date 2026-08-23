@@ -3,7 +3,7 @@
 
 @import "defaults";
 
-.stylish-table {
+table {
   width: 100%;
   padding: 0.2em;
 
@@ -37,6 +37,12 @@
   border-radius: 0.5em;
 
   box-shadow: 0.2em 0.2em 0.5em $bg-col;
+
+  transition: filter 0.1s;
+
+  &:hover {
+    filter: brightness(130%);
+  }
 }
 
 #header {
