@@ -1,0 +1,14 @@
+---
+title: Homebrew Rules
+layout: multi
+---
+
+{% for item in site.data.homerules %}
+<div class="content" id="{{ item.name }}">
+  <h1>{{ item.name }}</h1>
+  <p>
+    {{ item.description | markdownify }}
+    <br />
+  </p>
+</div>
+{% endfor %}

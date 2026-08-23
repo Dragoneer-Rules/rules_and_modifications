@@ -1,0 +1,132 @@
+# - name: template_rule
+#   description: |-
+#     template description
+
+- name: Drinking Potions
+  description: |-
+    - Drinking a potion is a bonus action, instead of an action.
+    - You may still drink a potion as an action. If you do, you don't roll dice for it's healing - you instead restore the maximum possible amount for the potion you drank.
+    - It is still an action to administer a potion to another creature.
+
+- name: Saving Throws and Ability Checks
+  description: |-
+    - A 1 will always result in a failure.
+    - A 20 will always result in a success.
+    - In a contest a 20 will always win. The creature with the higher relevant modifier will win the contest should both creatures roll a 20.
+
+- name: High Ground and Low Ground
+  description: |-
+    - You are considered to have high ground against another creature should you be at least 10 feet (/ 2 spaces) above it. While having high ground against another creature, your attack rolls will gain an additional bonus of +2 against that creature. You don't gain this benefit should you make the attack roll with disadvantage.
+    - While at least 10 feet (/ 2 spaces) below a creature you are considered to be in low ground against that creatures. Attack rolls against a creature that you have low ground against suffer from a -2 penalty.
+
+- name: Inspiration
+  description: |-
+    - You may use your inspiration after an applicable roll (attack roll, saving throw or ability check), but before your DM has disclosed whether it would result in a success or a failure.
+    - When using your inspiration you re-roll the entirety of your roll. Should you have advantage on the roll you'll repeat it with advantage. The same is true for disadvantage or additional dice like that you gain from the *Guidance* spell.
+    - You may still choose to use the first roll if you'd like to do so.
+
+- name: Areas of Effect
+  description: |-
+    - Can be placed however one desires. A creature is considered affected by an area if at least 50% of one of the spaces the creature occupies is within the area.
+
+- name: Harm that Causes More Harm
+  description: |-
+    - When you are affected by a harmful effect, that causes a saving throw, which may lead to more harm, then both of those instances of harm are treated as individual instances of harm.
+    - In practice this means that features, spells and creatures have time to react *in between* the instances. This also means that, should both instances deal damage to you, you'll need to make 2 separate concentration saving throws.
+    - An easy example would be a venomous creatures bite attack that strikes you. First you may take piercing damage. Now - before you save against the creatures venom - there'll be time for your contingency spell to take effect, your allies damage reducing features to be used and for you to make a concentration saving throw on you slow spell. Then, after all those things have happened, you'll make the saving throw against it's venom, suffering more damage, that may be reduced by your protection from poison, that your contingency cast, once you were bit by something venomous.
+
+- name: Dodge Action Against Shoving and Grappling
+  description: |-
+    - The dodge action additionally grants advantage on the relevant ability checks to **NOT** be grappled or shoved.
+
+- name: Holding the Dash Action
+  description: |-
+    - You may hold the dash action, as you would any other action. You may decide how to use your movement once your held dash action is used as a reaction.
+
+- name: Delay Initiative
+  description: |-
+    - At the start of each of your turns, before you've acted or any effects that are on you have happened, you may decide to delay your initiative. To do so choose where you'd like to end up in the initiative order. This can even be in spots that you naturally couldn't get to (e.g. between a 14 who's tie you'd beat and a 13 who's tie you'd lose). Delaying your initiative this way lasts until this combat is over.
+    - Effects that would last until the start or end of your next turn, last until the start or end of your delayed turn instead.
+    - You cannot delay your initiative if a negative status effect is impairing your movement or control over your mind and body (per case basis).
+    - Legendary Actions may still be used directly after you made your decision to delay your initiative.
+
+- name: Shared Turns
+  description: |-
+    - You may choose to share your turn with a creature that is willing and directly after you in the initiative order.
+    - Once a creature has joined a turn the next creature in initiative may also join the turn should all creatures be willing.
+    - A creature can even join the turn if it is afflicted by a negative status effect that is impairing it. Should the negative effect end, while the shared turn is taking place, the creature may act as it normally could during the shared turn.
+    - Once the chain of joining the turn has ended, legendary actions may be used whenever any creature, that **isn't** the first acting creature, performs it's first action or movement during the shared turn. Additionally, a legendary action may also be used at the end of the shared turn.
+
+- name: Utility of Temporary Hit Points
+  description: |-
+    - Saving throws, which are made to keep concentration, are only made against the damage that you suffer beyond temporary hit points (e.g. should you take 40 damage, while having 10 temporary hit points, the dc of your saving throw to uphold concentration will be 15). Should the damage not be enough to reduce your temporary hit points below 0, you won't have to make a saving throw to uphold your concentration at all.
+    - Should you gain temporary hit points from any source, while at 0 hit points, you'll additionally gain 1 hit point.
+
+- name: Living Cover Against Areas of Effect
+  description: |-
+    - Should you and another creature be within the same area of effect that causes both of you to make dexterity saving throws and if you're in between the other creature and the point of origin of the effect, you may choose to purposefully fail your saving throw to grant the other creature the benefits of three-quarters cover for this saving throw.
+
+- name: Grappled, Willing Creatures Counting as Objects
+  description: |-
+    - A creature that you willingly grappled may consent to be carried as an "object" for the purposes of spells and effects that allow you to take carried objects with you, such as misty step.
+
+- name: Casting a Spells as Actions and Bonus Actions
+  description: |-
+    - You may cast a leveled spell as an action and a bonus action. (The Sorceres Quickened Spell metamagic option is modified to cost a sorcery point per level of the spell being quickened instead. Quickening a cantrip still costs 1 sorcery point.)
+
+- name: Rotating Grappled Creatures Relative to You
+  description: |-
+    - You're able to use 5 feet of your movement to rotate a creature grappled by you onto any unobstructed space within the range of your unarmed strikes.
+
+- name: Halving a Single Damage
+  description: |-
+    - Should a single point of damage get halved, it becomes 0 damage.
+
+- name: Usage and Preparation of the Attack action
+  description: |-
+    - Should you choose the attack action during your turn, you'll gain the ability to perform whoever many attacks it enables you to do in total. There is no need to immediately use one of them when you choose it.
+    - Preparing the attack action allows you to perform however many attacks your attack action would allow you to perform as a reaction, instead of just one.
+
+- name: Multiple Reactions with the Same Trigger
+  description: |-
+    - Should two reactionary effects or abilities - such as opportunity attacks - be caused by the same instance of movement, the effect or ability used by the creature with the higher initiative will happen first.
+
+- name: Effects with a Range of Self that Create Auras
+  description: |-
+    - An effect centered on you, will have its effective area start at the outer edge of the space(s) you occupy instead of right on top of you. The area you occupy still counts as effective area.
+
+- name: Allied Creatures not Counting as Obstacles
+  description: |-
+    - You can move through the space of an allied creature and even stop there and perform actions, as long as you don't end your turn in its space.
+    - Allied creatures do **NOT** count as cover for the purposes of your attacks.
+
+- name: Enemy Creatures Counting as Obstacles
+  description: |-
+    - You can't move through the space an enemy creature occupies at all, unless it is at least 2 size categories larger or smaller than you. In that case the Space the creature occupies will be treated like difficult terrain for you. You may not end your turn in the space an enemy creature occupies.
+    - Enemy creatures provide half cover to other creatures against your attacks.
+
+- name: Creatures Effected by Negative Status Effects Counting as Obstacles
+  description: |-
+    - A creature effected by a negative effect (per case basis) counts as an enemy creature for **everyone** when it comes to the purposes of moving through it and staying in its space (see: Enemy Creatures counting as Obstalces).
+    - When it comes to giving cover against your attacks it will also always be treated as if it were an enemy creature (see: Enemy Creatures counting as Obstacles).
+
+- name: Using Your Action like a Bonus Action
+  description: |-
+    - You may perform anything requiring a bonus action by using your action instead. You may not perform anything identical twice, in the same turn, in this way (e.g. reactivating the Heat Metal spell).
+    - Two uses of something that requires a resource and that is therefore limited, is still possible.
+
+- name: Free Actions and Object Interactions
+  description: |-
+    - You may perform a free action, such as investigating a part of the battlefield or trying to quickly recall information about a for, **OR** an object interaction, such as pulling a lever. Should you want to perform an object interaction, after you've already used your free action, you'll need to use your action for an object interaction.
+
+- name: Unlimited Attunement
+  description: |-
+    - You may attune to as many magical items requiring it, as you wish. You cannot attune to the same type of item twice.
+
+- name: Dropping Objects
+  description: |-
+    - Dropping something you are holding, such as a weapon or an object, costs no action of any kind.
+
+- name: Movement through Difficult Terrain
+  description: |-
+    - Only movement to get **out of** difficult terrain costs twice as much movement. The cost of stepping into it is not yet doubled.

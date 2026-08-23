@@ -1,0 +1,40 @@
+@import "font-face";
+@import "vars";
+
+* {
+  font-family: Roboto;
+}
+
+a {
+  color: inherit;
+  background-color: inherit;
+  transition: backdrop-filter 0.1s;
+
+  &:hover {
+    backdrop-filter: brightness(85%);
+    border-radius: 0.2em;
+  }
+}
+
+body {
+  --bg-col: #{$light-bg-col};
+  --focus-col: #{$light-focus-col};
+  --text-col: #{$light-text-col};
+
+  --contrast-bg-col: #{$dark-bg-col};
+  --contrast-focus-col: #{$dark-focus-col};
+  --contrast-text-col: #{$dark-text-col};
+
+  color: $text-col;
+  background-color: $bg-col;
+}
+
+.dark-mode {
+  --bg-col: #{$dark-bg-col};
+  --focus-col: #{$dark-focus-col};
+  --text-col: #{$dark-text-col};
+
+  --contrast-bg-col: #{$light-bg-col};
+  --contrast-focus-col: #{$light-focus-col};
+  --contrast-text-col: #{$light-text-col};
+}

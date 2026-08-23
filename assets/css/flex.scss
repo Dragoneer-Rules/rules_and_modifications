@@ -10,21 +10,22 @@ body, html {
   display: flex;
   flex-flow: column;
   height: 100%;
+  gap: 1em;
 }
 
 #header {
   flex: 0 1 auto;
 }
 
-#content {
-  flex: 1 1 auto;
+.content {
+  flex: 1 0 auto;
+  // min-height: 40dvh;
+  // max-height: 100%;
 }
 
-#footer,
-#footer p {
+#footer {
   flex: 0 1 100 px;
 
   text-align: center;
   padding: 5px;
-
 }

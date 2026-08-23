@@ -1,5 +1,8 @@
 ---
+title: Home
 layout: home
+styles:
+  - mid-box
 ---
 
 # Testing.
